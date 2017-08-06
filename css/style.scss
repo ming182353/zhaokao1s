@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+%full {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+%posr{ position:relative; }
+%posa{ position: absolute; }
+
+html,body {
+    @extend %full;
+    font-size: 100px;
+    font-family:"microsoft yahei";
+    
+}
+
+.box {
+    font-size: .16rem;
+    @extend %full;
+    display: flex;
+    flex-direction: column;
+}
+.main{
+  width:100%;
+  height:auto;
+  flex:1;
+  overflow-y:scroll;
+}
+.header{
+  width: 100%;
+  height: .4rem;
+  line-height:.4rem;
+  background:#F22E2E;
+  /*display:flex;*/
+  text-align:center;
+  @extend %posr;
+  color:#eee;
+      h6{
+        font-size:13px;
+        font-weight:none;
+        display:inline-block;
+        /*text-align: center;*/
+      }
+      #i1{
+         @extend %posa;
+         right:5%;
+         top:2%;
+        
+      }
+}
+.swiper1{
+  width: 100%;
+  height: 1.3rem;
+    .swiper-wrapper{
+      width: 100%;
+        .swiper-slide{
+           width: 100%;
+            img{
+               width: 100%;
+               height: 100%;
+            }
+        }
+    }
+}
+.xuan{
+  width: 100%;
+  
+}
+ .xuan .top{
+      width:100%;
+      line-height:30px;
+      display: flex;
+      border-bottom:1px solid #ccc;
+      font-size:15px;
+      color:#666;
+          .span1{
+            display:inline-block;
+             margin-top:5px;
+             margin-left:5%;
+             margin-right:3%;
+             width:5px;
+             height:20px;
+             background:red;
+
+          }
+   }
+.uls{
+  width: 100%;
+  display:flex;
+  flex-wrap:wrap;
+  text-align: center;
+    dl{
+       width: 25%;
+       border:1px solid #ccc;
+       padding:10px 0;
+      dt{
+        width: 100%;
+         i{
+           font-size:33px;
+         }
+      }
+      dd{
+          font-size:12px;
+          padding:10px 0  5px  0;
+          color:#666;
+      }
+    }
+    dl:nth-child(1){
+      border-left:none;
+    }
+    dl:nth-child(4){
+      border-right:none;
+    }
+    dl:nth-child(5){
+      border-left:none;
+    }
+    dl:nth-child(8){
+      border-right:none;
+    }
+}
+.xuan .hrr{
+  width: 100%;
+  height: .15rem;
+  background:#eee;
+  border-bottom:1px solid #ccc;
+}
+
+.footer{
+  width: 100%;
+  height:.4.4rem;
+  background:#eee;
+  display: flex;
+  text-align: center;
+    dl{
+       width: 33.3%;
+       dt{
+          width:100%;
+          i{
+            font-size:20px;
+          }
+       }
+       dd{
+          font-size:10px;
+          color:#666;
+       }
+    }
+}

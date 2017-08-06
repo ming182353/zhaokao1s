@@ -1,0 +1,159 @@
+/* line 1, style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+/* line 9, style.scss */
+html, body, .box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+/* line 14, style.scss */
+.header {
+  position: relative; }
+
+/* line 15, style.scss */
+.header #i1 {
+  position: absolute; }
+
+/* line 17, style.scss */
+html, body {
+  font-size: 100px;
+  font-family: "microsoft yahei"; }
+
+/* line 24, style.scss */
+.box {
+  font-size: .16rem;
+  display: flex;
+  flex-direction: column; }
+
+/* line 30, style.scss */
+.main {
+  width: 100%;
+  height: auto;
+  flex: 1;
+  overflow-y: scroll; }
+
+/* line 36, style.scss */
+.header {
+  width: 100%;
+  height: .4rem;
+  line-height: .4rem;
+  background: #F22E2E;
+  /*display:flex;*/
+  text-align: center;
+  color: #eee; }
+  /* line 45, style.scss */
+  .header h6 {
+    font-size: 13px;
+    font-weight: none;
+    display: inline-block;
+    /*text-align: center;*/ }
+  /* line 51, style.scss */
+  .header #i1 {
+    right: 5%;
+    top: 2%; }
+
+/* line 58, style.scss */
+.swiper1 {
+  width: 100%;
+  height: 1.3rem; }
+  /* line 61, style.scss */
+  .swiper1 .swiper-wrapper {
+    width: 100%; }
+    /* line 63, style.scss */
+    .swiper1 .swiper-wrapper .swiper-slide {
+      width: 100%; }
+      /* line 65, style.scss */
+      .swiper1 .swiper-wrapper .swiper-slide img {
+        width: 100%;
+        height: 100%; }
+
+/* line 72, style.scss */
+.xuan {
+  width: 100%; }
+
+/* line 76, style.scss */
+.xuan .top {
+  width: 100%;
+  line-height: 30px;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  font-size: 15px;
+  color: #666; }
+  /* line 83, style.scss */
+  .xuan .top .span1 {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-right: 3%;
+    width: 5px;
+    height: 20px;
+    background: red; }
+
+/* line 94, style.scss */
+.uls {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center; }
+  /* line 99, style.scss */
+  .uls dl {
+    width: 25%;
+    border: 1px solid #ccc;
+    padding: 10px 0; }
+    /* line 103, style.scss */
+    .uls dl dt {
+      width: 100%; }
+      /* line 105, style.scss */
+      .uls dl dt i {
+        font-size: 33px; }
+    /* line 109, style.scss */
+    .uls dl dd {
+      font-size: 12px;
+      padding: 10px 0  5px  0;
+      color: #666; }
+  /* line 115, style.scss */
+  .uls dl:nth-child(1) {
+    border-left: none; }
+  /* line 118, style.scss */
+  .uls dl:nth-child(4) {
+    border-right: none; }
+  /* line 121, style.scss */
+  .uls dl:nth-child(5) {
+    border-left: none; }
+  /* line 124, style.scss */
+  .uls dl:nth-child(8) {
+    border-right: none; }
+
+/* line 128, style.scss */
+.xuan .hrr {
+  width: 100%;
+  height: .15rem;
+  background: #eee;
+  border-bottom: 1px solid #ccc; }
+
+/* line 135, style.scss */
+.footer {
+  width: 100%;
+  height: 0.4 0.4rem;
+  background: #eee;
+  display: flex;
+  text-align: center; }
+  /* line 141, style.scss */
+  .footer dl {
+    width: 33.3%; }
+    /* line 143, style.scss */
+    .footer dl dt {
+      width: 100%; }
+      /* line 145, style.scss */
+      .footer dl dt i {
+        font-size: 20px; }
+    /* line 149, style.scss */
+    .footer dl dd {
+      font-size: 10px;
+      color: #666; }
